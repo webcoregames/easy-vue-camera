@@ -10,7 +10,7 @@
 
 <script>
 import { v4 as uuid4 } from 'uuid';
-import Camera from 'easy-js-camera';
+import Camera from '../utils/Camera';
 
 export default {
     data() {
