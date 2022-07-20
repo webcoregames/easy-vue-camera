@@ -34,7 +34,7 @@
     "build:unpkg": "rollup --config build/rollup.config.js --format iife --file dist/EasyCamera.min.js",
     "lint": "eslint --ext js --ext vue src",
     "lint:fix": "npm run lint -- --fix",
-    "install": "npm run build"
+    "install": "npm i && npm run build"
   },
   "dependencies": {
     "@mdi/font": "^5.8.55",
