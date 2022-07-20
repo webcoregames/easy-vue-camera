@@ -2,7 +2,7 @@ import CameraModel from "./CameraModel";
 export class Constraints {
     constructor() {
         this.video = {
-            facingMode: 'user'
+            facingMode: 'environment'
         };
         this.audio = false;
     }
